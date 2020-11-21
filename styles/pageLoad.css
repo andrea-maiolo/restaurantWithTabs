@@ -1,0 +1,260 @@
+body{
+    margin:auto;
+}
+
+.header {
+    background-color: aquamarine;
+    display: flex;
+}
+
+.logo-link{
+    margin-left:10px;
+    height: 85px;
+    flex: 1;
+}
+
+.logo {
+    width: auto;
+    height: 85px;
+    flex: 1;
+}
+
+.right {
+    list-style: none;
+    flex: 3;
+    display: flex;
+    font-size: larger;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+li {
+    flex: 1;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.left {
+    flex: 1;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#firstImg {
+    background-image: url(mgg-vitchakorn-98Xi5vMGKck-unsplash.jpg);
+    text-align: left;
+}
+
+#secondImg {
+    background-image: url(wine-dharma-LAQVVwmIZQI-unsplash.jpg);
+    text-align: right;
+}
+
+#thirdImg {
+    text-align: left;
+    background-image: url(eaters-collective-12eHC6FxPyg-unsplash.jpg);
+}
+
+.images {
+    text-align: center;
+    align-items: center;
+    color: black;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    min-width: 500px;
+    min-height: 500px;
+    justify-content: center;
+    flex: 1;
+    width: 100vw;
+    max-width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+.imagesP {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.rightB {
+    flex: 1;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    background-color: aquamarine;
+}
+
+.insta {
+    height: 20px;
+}
+
+h1 {
+    font-size: xx-large;
+    color: #e0c7bd;
+}
+
+p {
+    font-size: x-large;
+    color: #e0c7bd;
+}
+
+.slideshow-container-menu {
+    max-width: 90%;
+    min-height: 430px;
+    position: relative;
+    margin: auto
+}
+
+.slideshow-inner-menu {
+    background-position: center;
+    width: 100%;
+    text-align: center;
+}
+
+.mySlides-menu {
+    display: none;
+    height: 400px;
+}
+
+.images-menu {
+    max-height: 90%;
+    max-width: 90%;
+}
+
+.prev-menu,
+.next-menu{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: #222428;
+    font-weight: bold;
+    font-size: 30px;
+    transition: .6s ease;
+    border-radius: 0 3px 3px 0
+}
+
+.next-menu {
+    right: -50px;
+    border-radius: 3px 3px 3px 3px
+}
+
+.prev-menu {
+    left: -50px;
+    border-radius: 3px 3px 3px 3px
+}
+
+.prev-menu:hover,
+.next-menu:hover {
+    color: #f2f2f2;
+    background-color: rgba(0, 0, 0, 0.8)
+}
+
+.description {
+    color: #f2f2f2;
+    font-size: large;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #222428
+}
+
+.slideshow-container-stories {
+    max-width: 90%;
+    min-height: 430px;
+    position: relative;
+    margin: auto
+}
+
+.slideshow-inner-stories {
+    background-image: url(tim.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    font-size: x-large;
+}
+
+.mySlides-stories {
+    display: none;
+    height: 400px;
+}
+
+.prev-stories,
+.next-stories {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: #222428;
+    font-weight: bold;
+    font-size: 30px;
+    transition: .6s ease;
+    border-radius: 0 3px 3px 0
+}
+
+.next-stories {
+    right: -50px;
+    border-radius: 3px 3px 3px 3px
+}
+
+.prev-stories {
+    left: -50px;
+    border-radius: 3px 3px 3px 3px
+}
+
+.prev-stories:hover,
+.next-stories:hover {
+    color: #f2f2f2;
+    background-color: rgba(0, 0, 0, 0.8)
+}
+
+.author {
+    color: #f2f2f2;
+    font-size: large;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #222428
+}
+
+.pReservation{
+    color:#000000;
+}
+
+.table-reservation{
+   margin-top:15px;
+}
+
+.img-reservation{
+    margin-top:15px;
+    margin-bottom: 10px;
+}
