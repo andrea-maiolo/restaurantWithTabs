@@ -22,7 +22,6 @@ const pageLoad = (function() {
     const logoA = document.createElement('a');
     logoA.classList.add('logo-link');
     const logoTop = document.createElement('img');
-    // logoTop.src = "../dist/styles/medium-size.svg";
     logoTop.src = "styles/medium-size.svg";
     logoTop.classList.add("logo");
     logoA.href='#';
@@ -31,30 +30,30 @@ const pageLoad = (function() {
     const navTop = document.createElement('nav');
     navTop.classList.add("right");
 
-    const li1Top = document.createElement('li');
+    const b1Top = document.createElement('button');
     const a1Top = document.createElement('a');
     a1Top.innerHTML = "Menù";
     a1Top.id='a1Top';
     a1Top.href = "#";
-    li1Top.appendChild(a1Top);
+    b1Top.appendChild(a1Top);
 
-    const li2Top = document.createElement('li');
+    const b2Top = document.createElement('button');
     const a2Top = document.createElement('a');
     a2Top.innerHTML = "Stories";
     a2Top.id='a2Top';
     a2Top.href = "#";
-    li2Top.appendChild(a2Top);
+    b2Top.appendChild(a2Top);
 
-    const li3Top = document.createElement('li');
+    const b3Top = document.createElement('button');
     const a3Top = document.createElement('a');
     a3Top.innerHTML = "Reservations";
     a3Top.id='a3Top';
     a3Top.href="#"
-    li3Top.appendChild(a3Top);
+    b3Top.appendChild(a3Top);
 
-    navTop.appendChild(li1Top);
-    navTop.appendChild(li2Top);
-    navTop.appendChild(li3Top);
+    navTop.appendChild(b1Top);
+    navTop.appendChild(b2Top);
+    navTop.appendChild(b3Top);
 
     header.appendChild(logoA);
     header.appendChild(navTop);
