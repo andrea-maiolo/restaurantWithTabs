@@ -29,8 +29,10 @@ body{
     text-align: center;
 }
 
-li {
+button {
     flex: 1;
+    font-size:medium;
+    background-color:#00f96f;
 }
 
 a {
